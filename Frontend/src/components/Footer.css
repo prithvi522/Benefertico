@@ -1,0 +1,240 @@
+.benfertico-footer {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background:
+    radial-gradient(
+      circle at 85% 20%,
+      rgba(118, 168, 72, 0.28),
+      transparent 38%
+    ),
+    linear-gradient(
+      120deg,
+      #102f20 0%,
+      #1d422c 45%,
+      #315d39 100%
+    ) !important;
+  color: #f8f5ec !important;
+  overflow: hidden !important;
+}
+
+.benfertico-footer *,
+.benfertico-footer *::before,
+.benfertico-footer *::after {
+  box-sizing: border-box;
+}
+
+.benfertico-footer-inner {
+  width: 100% !important;
+  max-width: 1496px !important;
+  margin: 0 auto !important;
+  padding: 26px 40px !important;
+}
+
+.benfertico-footer-grid {
+  display: grid !important;
+  grid-template-columns:
+    minmax(0, 1.5fr)
+    minmax(220px, 0.95fr)
+    minmax(360px, 1.15fr) !important;
+  column-gap: 80px !important;
+  align-items: start !important;
+}
+
+.benfertico-footer-grid > * {
+  min-width: 0;
+}
+
+/* Company */
+
+.benfertico-company-heading {
+  display: flex !important;
+  align-items: center !important;
+  gap: 13px !important;
+}
+
+.benfertico-leaf-icon {
+  width: 52px !important;
+  height: 52px !important;
+  min-width: 52px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+}
+
+.benfertico-company-label {
+  margin: 0 !important;
+  color: #ffffff !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.2 !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.02em !important;
+}
+
+.benfertico-company-name {
+  margin: 5px 0 0 !important;
+  color: #ffffff !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 27px !important;
+  line-height: 1.1 !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.015em !important;
+  text-transform: uppercase !important;
+}
+.benfertico-description {
+  max-width: 520px !important;
+  margin: 20px 0 0 !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 17px !important;
+  line-height: 1.7 !important;
+  font-weight: 400 !important;
+}
+
+/* Navigation */
+
+.benfertico-navigation {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 3px !important;
+}
+
+.benfertico-navigation a {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 18px !important;
+  line-height: 1.8 !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.benfertico-navigation a:hover {
+  color: #ffffff !important;
+}
+
+/* Contact */
+
+.benfertico-contact h2 {
+  margin: 0 !important;
+  color: #ffffff !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 25px !important;
+  line-height: 1 !important;
+  font-weight: 800 !important;
+}
+
+.benfertico-contact-list {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 9px !important;
+  margin-top: 20px !important;
+}
+
+.benfertico-contact-item {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 18px !important;
+  line-height: 1.7 !important;
+  font-weight: 400 !important;
+}
+
+.benfertico-contact-icon {
+  flex-shrink: 0 !important;
+  margin-top: 4px !important;
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+.benfertico-contact-item a {
+  color: rgba(255, 255, 255, 0.8) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.benfertico-contact-item a:hover {
+  color: #ffffff !important;
+}
+
+.benfertico-contact-item span {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .benfertico-footer-inner {
+    padding: 48px 28px !important;
+  }
+
+  .benfertico-footer-grid {
+    grid-template-columns: 1fr 1fr !important;
+    row-gap: 48px !important;
+  }
+
+  .benfertico-contact {
+    grid-column: 1 / -1 !important;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 640px) {
+  .benfertico-footer-inner {
+    padding: 42px 20px !important;
+  }
+
+  .benfertico-footer-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 40px !important;
+  }
+
+  .benfertico-company-heading {
+    align-items: flex-start !important;
+  }
+
+  .benfertico-leaf-icon {
+    width: 46px !important;
+    height: 46px !important;
+    min-width: 46px !important;
+  }
+
+  .benfertico-company-label {
+    font-size: 14px !important;
+  }
+
+  .benfertico-company-name {
+    font-size: 23px !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .benfertico-description {
+    font-size: 15px !important;
+    line-height: 1.8 !important;
+  }
+
+  .benfertico-navigation a {
+    font-size: 16px !important;
+  }
+
+  .benfertico-contact h2 {
+    font-size: 24px !important;
+  }
+
+  .benfertico-contact-item {
+    font-size: 15px !important;
+  }
+
+  .benfertico-contact-item > div {
+    min-width: 0 !important;
+    overflow-wrap: anywhere !important;
+  }
+}
