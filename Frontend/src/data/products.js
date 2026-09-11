@@ -17,7 +17,7 @@ import beneMn from '../assets/BeneMnChelatedManganese-10Percent.jpeg';
 import benePhos from '../assets/BenePhos.jpeg';
 import benePk from '../assets/Bene-PK.jpeg';
 import beneSil from '../assets/BeneSil.jpeg';
-import beneZinc from '../assets/Benezinc.jpeg';
+import beneZinc from '../assets/BeneZnChelatedZinc-12-percent.jpeg';
 import bloomPk from '../assets/Bloom-PK.jpeg';
 import budMgZn from '../assets/Bud-MgZn.jpeg';
 import fruitFinish from '../assets/Fruit-Finish.jpeg';
